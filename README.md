@@ -150,7 +150,19 @@ Lisans henüz tanımlanmamıştır.
 - **CV’de kullanılabilir**
 
 ---
+ 
+<p align="center">
+  assets/logo.png
+</p>
 
-İstersen bir üst seviyeye geçebiliriz:
-👉 logo + badge + screenshot ekleyelim (çok premium görünür)
+<h1 align="center">ISGCEP</h1>
+<p align="center">
+  İş sağlığı ve güvenliği süreçlerini dijitalleştiren modern platform
+</p>
+
+<p align="center">
+  https://img.shields.io/badge/status-active-success
+  https://img.shields.io/badge/version-1.0-blue
+  https://img.shields.io/badge/license-pending-lightgrey
+</p>
  
