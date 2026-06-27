@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>İSGCep — Gizlilik Politikası</title>
+<style>
+  :root { --bg:#0f172a; --card:#1e293b; --accent:#38bdf8; --text:#e2e8f0; --muted:#94a3b8; }
+  * { box-sizing: border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--text); line-height:1.7; margin:0; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+  a { color: var(--accent); }
+  a.back { display:inline-block; margin-bottom:24px; text-decoration:none; font-size:0.9rem; color: var(--muted); }
+  h1 { font-size: 1.8rem; margin-bottom: 4px; }
+  .updated { color: var(--muted); font-size: 0.85rem; margin-bottom: 32px; }
+  h2 { font-size: 1.2rem; margin-top: 36px; margin-bottom: 12px; color: var(--accent); }
+  h3 { font-size: 1.05rem; margin-top: 20px; margin-bottom: 8px; }
+  p, li { color: #cbd5e1; font-size: 0.97rem; }
+  ul { margin: 8px 0 16px 20px; }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 0.9rem; }
+  th, td { border: 1px solid #334155; padding: 8px 12px; text-align: left; }
+  th { background: var(--card); }
+  blockquote { background: var(--card); border-left: 3px solid var(--accent); padding: 12px 16px; margin: 16px 0; border-radius: 6px; color: var(--muted); font-size: 0.9rem; }
+  hr { border: none; border-top: 1px solid #334155; margin: 32px 0; }
+  footer { text-align:center; color: var(--muted); font-size:0.85rem; margin-top:48px; }
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="index.html">← Ana sayfaya dön</a>
+  <h1>İSGCep Gizlilik Politikası</h1>
+  <p class="updated">Son güncelleme: [TARİH GİRİN]</p>
+
+  <p>Bu Gizlilik Politikası, İSGCep mobil uygulamasını ("Uygulama", "İSGCep") kullanırken hangi bilgilerin toplandığını, nasıl kullanıldığını ve korunduğunu açıklamaktadır. Uygulamayı kullanarak bu politikayı kabul etmiş olursunuz.</p>
+
+  <hr/>
+
+  <h2>1. Veri Sorumlusu</h2>
+  <p>İSGCep'in işletmecisi: <strong>Ali Özben</strong> (gerçek kişi)<br/>
+  İletişim: <strong><a href="mailto:isgcepp@gmail.com">isgcepp@gmail.com</a></strong></p>
+  <blockquote>İSGCep şu aşamada bir şirket çatısı olmadan, gerçek kişi (şahıs) sıfatıyla işletilmektedir. İleride bir şahıs/limited şirket açılırsa bu alan şirket unvanıyla güncellenecektir.</blockquote>
+
+  <h2>2. Toplanan Veriler</h2>
+
+  <h3>2.1 Hesap Bilgileri (Supabase Auth üzerinden)</h3>
+  <ul>
+    <li>E-posta adresi</li>
+    <li>Kullanıcı kimliği (UUID) — sistem tarafından otomatik oluşturulur, kişisel bilgi içermez</li>
+    <li>Şifre (şifrelenmiş/hash'lenmiş olarak saklanır, biz okuyamayız)</li>
+  </ul>
+
+  <h3>2.2 Kullanım ve Performans Verileri</h3>
+  <ul>
+    <li>Sınav/deneme sonuçları, yanlış cevaplanan sorular, çalışma geçmişi</li>
+    <li>Sertifika sınıfı tercihi (DSP/A/B/C) ve varsa hedef sınav tarihi</li>
+    <li>Flashcard tekrar (spaced repetition) ilerleme verisi</li>
+  </ul>
+  <p>Bu veriler, size kişiselleştirilmiş bir öğrenme deneyimi sunmak (yanlış soru havuzu, ilerleme takibi) amacıyla işlenir.</p>
+
+  <h3>2.3 Satın Alma Bilgileri (RevenueCat üzerinden)</h3>
+  <ul>
+    <li>Abonelik durumu (aktif/pasif, paket türü)</li>
+    <li>Satın alma geçmişi ve işlem kimlikleri</li>
+  </ul>
+  <p><strong>Önemli:</strong> Kredi kartı bilgileriniz bize veya RevenueCat'e hiçbir zaman ulaşmaz; ödemeler doğrudan Apple App Store veya Google Play altyapısı üzerinden işlenir.</p>
+
+  <h3>2.4 Cihaz Üzerinde Saklanan Veriler (Hive)</h3>
+  <p>Uygulama, çevrimdışı kullanım için bazı verileri (sınav içerikleri, geçici oturum durumu, önbelleğe alınmış abonelik durumu) cihazınızda yerel olarak saklar. Bu veriler sunucularımıza otomatik olarak iletilmez; senkronizasyon yalnızca internet bağlantısı olduğunda ve ilgili işlemler sırasında gerçekleşir.</p>
+
+  <h3>2.5 Teknik Veriler</h3>
+  <p>IP adresi, cihaz/işletim sistemi bilgisi, uygulama sürümü (hata ayıklama ve güvenlik amaçlı, varsa crash-reporting aracı üzerinden).</p>
+
+  <h2>3. Verilerin Kullanım Amaçları</h2>
+  <ul>
+    <li>Hesabınızı oluşturmak ve oturum açmanızı sağlamak</li>
+    <li>Sınav/deneme sonuçlarınızı kaydetmek, yanlış soru havuzunu ve flashcard ilerlemenizi yönetmek</li>
+    <li>Abonelik durumunuzu doğrulamak ve premium özelliklere erişiminizi yönetmek</li>
+    <li>Uygulamanın teknik olarak düzgün çalışmasını sağlamak, hataları tespit edip gidermek</li>
+    <li>Yasal yükümlülüklerin yerine getirilmesi</li>
+  </ul>
+
+  <h2>4. Verilerin Üçüncü Taraflarla Paylaşılması</h2>
+  <table>
+    <tr><th>Hizmet Sağlayıcı</th><th>Amaç</th><th>Paylaşılan Veri</th></tr>
+    <tr><td>Supabase</td><td>Hesap yönetimi, veritabanı barındırma</td><td>E-posta, kullanıcı ID, kullanım verisi</td></tr>
+    <tr><td>RevenueCat</td><td>Abonelik/satın alma yönetimi</td><td>Satın alma geçmişi, kullanıcı ID</td></tr>
+    <tr><td>Apple App Store / Google Play</td><td>Ödeme işleme</td><td>Ödeme bilgileri (bizim tarafımızdan görülmez)</td></tr>
+  </table>
+  <p>Verileriniz, yasal zorunluluk haricinde reklam amacıyla satılmaz veya kiralanmaz. <strong>İSGCep'te üçüncü taraf reklam ağı kullanılmamaktadır.</strong></p>
+
+  <h2>5. Verilerin Saklanma Süresi</h2>
+  <p>Hesap verileri, hesabınızı silene kadar saklanır. Hesap silme talebinde bulunduğunuzda, yasal saklama zorunlulukları dışındaki tüm kişisel verileriniz makul bir süre içinde silinir.</p>
+
+  <h2>6. Kullanıcı Hakları</h2>
+  <ul>
+    <li>Verilerinize erişim talep etme</li>
+    <li>Yanlış/eksik verilerin düzeltilmesini isteme</li>
+    <li>Hesabınızın ve ilişkili verilerinizin silinmesini talep etme</li>
+    <li>Veri işlemeye itiraz etme</li>
+  </ul>
+  <p>Bu talepleri <a href="mailto:isgcepp@gmail.com">isgcepp@gmail.com</a> üzerinden iletebilirsiniz.</p>
+
+  <h2>7. Veri Güvenliği</h2>
+  <p>Verileriniz, Supabase'in sunduğu Row Level Security (RLS) politikaları ile korunur — bu, bir kullanıcının yalnızca kendi verilerine erişebilmesini sağlar. Şifreleriniz hash'lenmiş olarak saklanır.</p>
+
+  <h2>8. Çocukların Gizliliği</h2>
+  <p>İSGCep, meslek sınavlarına hazırlanan yetişkin bireylere yönelik bir uygulamadır ve bilerek 18 yaş altı bireylerden veri toplamaz.</p>
+
+  <h2>9. Politika Değişiklikleri</h2>
+  <p>Bu politika zaman zaman güncellenebilir. Önemli değişikliklerde uygulama içinde bilgilendirme yapılacaktır.</p>
+
+  <h2>10. İletişim</h2>
+  <p>Sorularınız için: <a href="mailto:isgcepp@gmail.com">isgcepp@gmail.com</a></p>
+
+  <hr/>
+  <p><em>İSGCep, T.C. Çalışma ve Sosyal Güvenlik Bakanlığı veya ÖSYM ile bir bağlantısı olmadığını, eğitim ve sınav hazırlık amaçlı bağımsız bir uygulama olduğunu beyan eder.</em></p>
+
+  <footer>İSGCep © 2026</footer>
+</main>
+</body>
+</html>
