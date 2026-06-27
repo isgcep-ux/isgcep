@@ -1,15 +1,15 @@
 # İSGCep — Kişisel Verilerin Korunması Kanunu (KVKK) Aydınlatma Metni
 
-**Son güncelleme:** [TARİH GİRİN]
+**Son güncelleme:** 27 Haziran 2026
 
-6698 sayılı Kişisel Verilerin Korunması Kanunu ("KVKK") uyarınca, veri sorumlusu sıfatıyla **[AD SOYAD GİRİN]** ("İSGCep") tarafından, kişisel verilerinizin işlenmesine ilişkin olarak sizi bilgilendirmek amacıyla bu metin hazırlanmıştır.
+6698 sayılı Kişisel Verilerin Korunması Kanunu ("KVKK") uyarınca, veri sorumlusu sıfatıyla **Ali Özben** ("İSGCep") tarafından, kişisel verilerinizin işlenmesine ilişkin olarak sizi bilgilendirmek amacıyla bu metin hazırlanmıştır.
 
 ---
 
 ## 1. Veri Sorumlusu
 
-**Ad Soyad:** [AD SOYAD GİRİN] (gerçek kişi)
-**İletişim:** [E-POSTA ADRESİ GİRİN]
+**Ad Soyad:** Ali Özben (gerçek kişi)
+**İletişim:** isgcepp@gmail.com
 
 > Not: İSGCep, bir tüzel kişilik (şirket) çatısı olmadan gerçek kişi sıfatıyla işletilmektedir. KVKK kapsamında gerçek kişiler de veri sorumlusu sıfatını taşıyabilir.
 
@@ -81,7 +81,7 @@ Kişisel verileriniz, uygulamayı kullanımınız sırasında elektronik ortamda
 
 ## 8. Başvuru Yöntemi
 
-Yukarıdaki haklarınızı kullanmak için talebinizi **[E-POSTA ADRESİ]** adresine yazılı olarak iletebilirsiniz. Başvurunuz, KVKK'da belirtilen süre (en geç 30 gün) içinde sonuçlandırılacaktır.
+Yukarıdaki haklarınızı kullanmak için talebinizi **isgcepp@gmail.com** adresine yazılı olarak iletebilirsiniz. Başvurunuz, KVKK'da belirtilen süre (en geç 30 gün) içinde sonuçlandırılacaktır.
 
 ---
 
