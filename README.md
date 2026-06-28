@@ -6,7 +6,7 @@
 
 ## 🚀 Genel Bakış
 
-İSGCep, iş güvenliği uzmanlığı sertifika adaylarının sınav hazırlık sürecini kolaylaştırmak amacıyla geliştirilen bir mobil uygulamadır. Soru bankası, deneme sınavları, yanlış soru havuzu ve flashcard tekrar sistemiyle adayların eksiklerini hedeflenmiş şekilde gidermesini sağlar.
+İSGCep, iş güvenliği uzmanlığı sertifika adaylarının sınav hazırlık sürecini kolaylaştırmak amacıyla geliştirilen bir mobil uygulamadır. Soru bankası, deneme sınavları, yanlış soru havuzu ve flashcard tekrar sistemiyle adayların eksiklerini hedefli şekilde gidermesini sağlar.
 
 ## 🌐 Yasal Belgeler (Bu Repo)
 
@@ -42,4 +42,8 @@ Statik bir yapıdır, herhangi bir build/kurulum gerektirmez.
 
 ## 📄 Lisans
 
-Lisans henüz tanımlanmamıştır.
+Bu proje ve içeriği (kod, tasarım, yasal metinler dahil) **tüm hakları saklıdır**. Önceden yazılı izin alınmaksızın kopyalanamaz, çoğaltılamaz veya ticari amaçla kullanılamaz.
+
+© 2026 Ali Özben. All rights reserved.
+
+> Not: Bu, açık kaynak (MIT/Apache vb.) bir lisans DEĞİLDİR — İSGCep ticari bir abonelik ürünü olduğundan kaynak kodun/tasarımın serbestçe kopyalanmasına izin verilmemektedir.
