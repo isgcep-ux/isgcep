@@ -1,0 +1,3 @@
+git remote -v
+git status
+ls .github/workflows/
