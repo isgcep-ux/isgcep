@@ -9,7 +9,7 @@
 
 ## 🌐 Canlı Demo
 
-👉 [https://isgcep-ux.github.io/isgcepapp/](https://isgcep-ux.github.io/isgcepapp/)
+👉 [https://isgcep-ux.github.io/isgcepapp/](https://isgcep-ux.github.io/isgcep/)
 
 ## ✨ Özellikler
 
