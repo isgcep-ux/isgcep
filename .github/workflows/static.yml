@@ -1,3 +1,6 @@
+git remote -v
+git status
+ls .github/workflows/
 # Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
 
